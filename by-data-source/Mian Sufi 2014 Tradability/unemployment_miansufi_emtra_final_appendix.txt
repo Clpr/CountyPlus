@@ -1,0 +1,295 @@
+NAICS IndustryName Percentageoftotalemploymentin2007 IndustryClassification#1 IndustryClassification#2(GeographicalHerfindahlIndexx100)
+4411 Automobile dealers 1.05 non-tradable 0.37
+4412 Other motor vehicle dealers 0.15 non-tradable 0.27
+4413 Automotive parts accessories and tire stores 0.41 non-tradable 0.28
+4421 Furniture stores 0.23 non-tradable 0.39
+4422 Home furnishings stores 0.27 non-tradable 0.47
+4431 Electronics and appliance stores 0.42 non-tradable 0.50
+4451 Grocery stores 2.13 non-tradable 0.36
+4452 Specialty food stores 0.15 non-tradable 0.61
+4453 Beer wine and liquor stores 0.13 non-tradable 0.31
+4461 Health and personal care stores 0.89 non-tradable 0.46
+4471 Gasoline stations 0.73 non-tradable 0.14
+4481 Clothing stores 1.06 non-tradable 0.60
+4482 Shoe stores 0.18 non-tradable 0.55
+4483 Jewelry luggage and leather goods stores 0.14 non-tradable 0.49
+4511 Sporting goods hobby and musical instrument stores 0.38 non-tradable 0.37
+4512 Book periodical and music stores 0.16 non-tradable 0.54
+4521 Department stores 1.36 non-tradable 0.36
+4529 Other general merchandise stores 1.12 non-tradable 0.20
+4531 Florists 0.09 non-tradable 0.23
+4532 Office supplies stationery and gift stores 0.27 non-tradable 0.40
+4533 Used merchandise stores 0.12 non-tradable 0.38
+4539 Other miscellaneous store retailers 0.23 non-tradable 0.36
+7221 Full-service restaurants 3.76 non-tradable 0.42
+7222 Limited-service eating places 3.40 non-tradable 0.37
+7223 Special food services 0.49 non-tradable 0.61
+7224 Drinking places (alcoholic beverages) 0.31 non-tradable 0.51
+1132 Forest nurseries and gathering of forest products 0.00 tradable 2.10
+1141 Fishing 0.01 tradable 4.88
+2111 Oil and gas extraction 0.10 tradable 4.93
+2121 Coal mining 0.07 tradable 1.69
+2122 Metal ore mining 0.03 tradable 5.48
+2123 Nonmetallic mineral mining and quarrying 0.10 tradable 0.19
+3111 Animal food manufacturing 0.05 tradable 0.33
+3112 Grain and oilseed milling 0.05 tradable 1.05
+3113 Sugar and confectionery product manufacturing 0.07 tradable 1.23
+3114 Fruit and vegetable preserving and specialty food manufacturing 0.15 tradable 0.69
+3115 Dairy product manufacturing 0.11 tradable 0.50
+3116 Animal slaughtering and processing 0.44 tradable 0.43
+3117 Seafood product preparation and packaging 0.03 tradable 2.57
+3118 Bakeries and tortilla manufacturing 0.25 tradable 0.77
+3119 Other food manufacturing 0.14 tradable 0.82
+3121 Beverage manufacturing 0.12 tradable 0.92
+3122 Tobacco manufacturing 0.02 tradable 8.08
+3131 Fiber yarn and thread mills 0.04 tradable 1.67
+3132 Fabric mills 0.07 tradable 0.94
+3133 Textile and fabric finishing and fabric coating mills 0.04 tradable 2.28
+3141 Textile furnishings mills 0.07 tradable 3.38
+3149 Other textile product mills 0.07 tradable 0.52
+3151 Apparel knitting mills 0.02 tradable 4.58
+3152 Cut and sew apparel manufacturing 0.14 tradable 12.42
+3159 Apparel accessories and other apparel manufacturing 0.01 tradable 2.63
+3161 Leather and hide tanning and finishing 0.00 tradable 3.03
+3162 Footwear manufacturing 0.01 tradable 3.54
+3169 Other leather and allied product manufacturing 0.02 tradable 2.20
+3221 Pulp paper and paperboard mills 0.12 tradable 0.80
+3222 Converted paper product manufacturing 0.25 tradable 0.46
+3231 Printing and related support activities 0.53 tradable 0.55
+3241 Petroleum and coal products manufacturing 0.09 tradable 1.25
+3251 Basic chemical manufacturing 0.15 tradable 1.79
+3252 Resin synthetic rubber and artificial synthetic fibers and filaments manufacturing 0.08 tradable 0.99
+3253 Pesticide fertilizer and other agricultural chemical manufacturing 0.03 tradable 0.92
+3254 Pharmaceutical and medicine manufacturing 0.21 tradable 1.51
+3255 Paint coating and adhesive manufacturing 0.06 tradable 1.00
+3256 Soap cleaning compound and toilet preparation manufacturing 0.09 tradable 1.42
+3259 Other chemical product and preparation manufacturing 0.10 tradable 2.71
+3261 Plastics product manufacturing 0.60 tradable 0.33
+3262 Rubber product manufacturing 0.13 tradable 0.53
+3271 Clay product and refractory manufacturing 0.05 tradable 0.69
+3272 Glass and glass product manufacturing 0.09 tradable 0.76
+3279 Other nonmetallic mineral product manufacturing 0.08 tradable 0.44
+3311 Iron and steel mills and ferroalloy manufacturing 0.10 tradable 3.30
+3313 Alumina and aluminum production and processing 0.06 tradable 1.07
+3314 Nonferrous metal (except aluminum) production and processing 0.06 tradable 1.02
+3315 Foundries 0.14 tradable 0.60
+3322 Cutlery and handtool manufacturing 0.05 tradable 1.04
+3324 Boiler tank and shipping container manufacturing 0.08 tradable 0.66
+3325 Hardware manufacturing 0.04 tradable 1.33
+3326 Spring and wire product manufacturing 0.05 tradable 0.74
+3327 Machine shops; turned product; and screw nut and bolt manufacturing 0.33 tradable 0.59
+3329 Other fabricated metal product manufacturing 0.24 tradable 0.47
+3331 Agriculture construction and mining machinery manufacturing 0.18 tradable 1.01
+3332 Industrial machinery manufacturing 0.12 tradable 0.84
+3333 Commercial and service industry machinery manufacturing 0.08 tradable 0.88
+3334 Ventilation heating air-conditioning and commercial refrigeration manufacturing 0.14 tradable 0.79
+3335 Metalworking machinery manufacturing 0.15 tradable 0.79
+3336 Engine turbine and power transmission equipment manufacturing 0.09 tradable 1.29
+3339 Other general purpose machinery manufacturing 0.25 tradable 0.42
+3341 Computer and peripheral equipment manufacturing 0.09 tradable 2.59
+3342 Communications equipment manufacturing 0.14 tradable 2.83
+3343 Audio and video equipment manufacturing 0.02 tradable 2.38
+3344 Semiconductor and other electronic component manufacturing 0.32 tradable 1.85
+3345 Navigational measuring electromedical and control instruments manufacturing 0.33 tradable 1.27
+3346 Manufacturing and reproducing magnetic and optical media 0.03 tradable 3.54
+3351 Electric lighting equipment manufacturing 0.05 tradable 1.43
+3352 Household appliance manufacturing 0.06 tradable 2.43
+3353 Electrical equipment manufacturing 0.12 tradable 0.75
+3359 Other electrical equipment and component manufacturing 0.13 tradable 0.72
+3361 Motor vehicle manufacturing 0.17 tradable 2.46
+3362 Motor vehicle body and trailer manufacturing 0.13 tradable 2.86
+3363 Motor vehicle parts manufacturing 0.52 tradable 0.65
+3364 Aerospace product and parts manufacturing 0.35 tradable 3.29
+3365 Railroad rolling stock manufacturing 0.03 tradable 7.19
+3366 Ship and boat building 0.13 tradable 3.46
+3369 Other transportation equipment manufacturing 0.04 tradable 1.85
+3372 Office furniture (including fixtures) manufacturing 0.12 tradable 0.83
+3391 Medical equipment and supplies manufacturing 0.27 tradable 0.87
+3399 Other miscellaneous manufacturing 0.31 tradable 0.62
+5112 Software publishers 0.29 tradable 3.26
+1133 Logging 0.05 construction 0.28
+2361 Residential building construction 0.75 construction 0.37
+2362 Nonresidential building construction 0.64 construction 0.4
+2371 Utility system construction 0.44 construction 0.84
+2372 Land subdivision 0.07 construction 0.53
+2373 Highway street and bridge construction 0.28 construction 0.34
+2381 Foundation structure and building exterior contractors 0.91 construction 0.58
+2382 Building equipment contractors 1.62 construction 0.40
+2383 Building finishing contractors 0.78 construction 0.64
+2389 Other specialty trade contractors 0.48 construction 0.34
+3211 Sawmills and wood preservation 0.10 construction 0.23
+3212 Veneer plywood and engineered wood product manufacturing 0.10 construction 0.34
+3219 Other wood product manufacturing 0.27 construction 0.29
+3273 Cement and concrete product manufacturing 0.20 construction 0.28
+3323 Architectural and structural metals manufacturing 0.34 construction 0.41
+3371 Household and institutional furniture and kitchen cabinet manufacturing 0.29 construction 0.62
+4233 Lumber and other construction materials merchant wholesalers 0.23 construction 0.45
+4441 Building material and supplies dealers 1.00 construction 0.26
+4442 Lawn and garden equipment and supplies stores 0.15 construction 0.12
+5311 Lessors of real estate 0.45 construction 0.85
+5312 Offices of real estate agents and brokers 0.31 construction 0.70
+5313 Activities related to real estate 0.54 construction 0.98
+5413 Architectural engineering and related services 1.19 construction 0.77
+1131 Timber tract operations 0.00 other 0.89
+1142 Hunting and trapping 0.00 other 1.68
+1151 Support activities for crop production 0.06 other 1.21
+1152 Support activities for animal production 0.02 other 0.39
+1153 Support activities for forestry 0.02 other 1.70
+2131 Support activities for mining 0.20 other 2.48
+2211 Electric power generation transmission and distribution 0.46 other 0.33
+2212 Natural gas distribution 0.08 other 1.02
+2213 Water sewage and other systems 0.04 other 0.45
+2379 Other heavy and civil engineering construction 0.08 other 0.67
+3274 Lime and gypsum product manufacturing 0.02 other 1.24
+3312 Steel product manufacturing from purchased steel 0.04 other 0.98
+3321 Forging and stamping 0.11 other 0.85
+3328 Coating engraving heat treating and allied activities 0.12 other 1.05
+3379 Other furniture related product manufacturing 0.04 other 1.19
+4231 Motor vehicle and motor vehicle parts and supplies merchant wholesalers 0.30 other 0.55
+4232 Furniture and home furnishing merchant wholesalers 0.13 other 1.23
+4234 Professional and commercial equipment and supplies merchant wholesalers 0.58 other 0.92
+4235 Metal and mineral (except petroleum) merchant wholesalers 0.14 other 0.88
+4236 Electrical and electronic goods merchant wholesalers 0.37 other 1.22
+4237 Hardware plumbing and heating equipment and supplies merchant wholesalers 0.20 other 0.55
+4238 Machinery equipment and supplies merchant wholesalers 0.60 other 0.47
+4239 Miscellaneous durable goods merchant wholesalers 0.30 other 1.06
+4241 Paper and paper product merchant wholesalers 0.15 other 1.58
+4242 Drugs and druggists' sundries merchant wholesalers 0.20 other 1.35
+4243 Apparel piece goods and notions merchant wholesalers 0.17 other 5.41
+4244 Grocery and related product merchant wholesalers 0.65 other 0.68
+4245 Farm product raw material merchant wholesalers 0.06 other 0.13
+4246 Chemical and allied products merchant wholesalers 0.12 other 0.69
+4247 Petroleum and petroleum products merchant wholesalers 0.09 other 0.44
+4248 Beer wine and distilled alcoholic beverage merchant wholesalers 0.15 other 0.53
+4249 Miscellaneous nondurable goods merchant wholesalers 0.32 other 0.59
+4251 Wholesale electronic markets and agents and brokers 0.29 other 0.77
+4541 Electronic shopping and mail-order houses 0.23 other 0.70
+4542 Vending machine operators 0.05 other 0.39
+4543 Direct selling establishments 0.17 other 0.26
+4811 Scheduled air transportation 0.40 other 3.29
+4812 Nonscheduled air transportation 0.04 other 1.51
+4831 Deep sea coastal and great lakes water transportation 0.05 other 10.59
+4832 Inland water transportation 0.02 other 3.35
+4841 General freight trucking 0.83 other 0.40
+4842 Specialized freight trucking 0.40 other 0.28
+4851 Urban transit systems 0.05 other 1.70
+4852 Interurban and rural bus transportation 0.02 other 1.58
+4853 Taxi and limousine service 0.06 other 2.75
+4854 School and employee bus transportation 0.18 other 0.67
+4855 Charter bus industry 0.03 other 0.74
+4859 Other transit and ground passenger transportation 0.06 other 0.81
+4861 Pipeline transportation of crude oil 0.01 other 12.78
+4862 Pipeline transportation of natural gas 0.03 other 3.57
+4869 Other pipeline transportation 0.01 other 0.89
+4871 Scenic and sightseeing transportation land 0.01 other 1.69
+4872 Scenic and sightseeing transportation water 0.01 other 5.83
+4879 Scenic and sightseeing transportation other 0.00 other 6.81
+4881 Support activities for air transportation 0.15 other 1.26
+4882 Support activities for rail transportation 0.03 other 1.55
+4883 Support activities for water transportation 0.08 other 5.43
+4884 Support activities for road transportation 0.07 other 0.63
+4885 Freight transportation arrangement 0.18 other 1.57
+4889 Other support activities for transportation 0.03 other 5.36
+4921 Couriers and express delivery services 0.45 other 0.83
+4922 Local messengers and local delivery 0.04 other 2.12
+4931 Warehousing and storage 0.59 other 0.45
+5111 Newspaper periodical book and directory publishers 0.59 other 0.95
+5121 Motion picture and video industries 0.26 other 12.20
+5122 Sound recording industries 0.02 other 9.29
+5151 Radio and television broadcasting 0.22 other 1.62
+5152 Cable and other subscription programming 0.04 other 9.92
+5161 Internet Publishing and Broadcasting 0.04 other 3.66
+5171 Wired telecommunications carriers 0.56 other 0.64
+5172 Wireless telecommunications carriers (except satellite) 0.25 other 1.06
+5173 Telecommunications Resellers 0.03 other 0.98
+5174 Satellite telecommunications 0.01 other 2.16
+5175 Cable and Other Program Distribution 0.22 other 0.54
+5179 Other telecommunications 0.02 other 2.64
+5181 Internet Service Providers and Web Search Portals 0.07 other 5.66
+5182 Data processing hosting and related services 0.32 other 0.86
+5191 Other information services 0.05 other 1.77
+5211 Monetary authorities - central bank 0.02 other 5.07
+5221 Depository credit intermediation 1.77 other 0.57
+5222 Nondepository credit intermediation 0.63 other 0.92
+5223 Activities related to credit intermediation 0.29 other 0.91
+5231 Securities and commodity contracts intermediation and brokerage 0.45 other 5.75
+5232 Securities and commodity exchanges 0.01 other 20.19
+5239 Other financial investment activities 0.35 other 3.05
+5241 Insurance carriers 1.17 other 0.77
+5242 Agencies brokerages and other insurance related activities 0.74 other 0.53
+5259 Other investment pools and funds 0.03 other 3.10
+5321 Automotive equipment rental and leasing 0.17 other 0.82
+5322 Consumer goods rental 0.20 other 0.33
+5323 General rental centers 0.03 other 0.24
+5324 Commercial and industrial machinery and equipment rental and leasing 0.14 other 0.77
+5331 Lessors of nonfinancial intangible assets (except copyrighted works) 0.03 other 1.72
+5411 Legal services 1.00 other 1.16
+5412 Accounting tax preparation bookkeeping and payroll services 1.02 other 1.58
+5414 Specialized design services 0.12 other 1.49
+5415 Computer systems design and related services 1.05 other 1.21
+5416 Management scientific and technical consulting services 0.84 other 1.11
+5417 Scientific research and development services 0.58 other 1.42
+5418 Advertising public relations and related services 0.38 other 2.16
+5419 Other professional scientific and technical services 0.50 other 0.50
+5511 Management of companies and enterprises 2.60 other 0.85
+5611 Office administrative services 0.40 other 0.88
+5612 Facilities support services 0.16 other 0.89
+5613 Employment services 2.56 other 0.66
+5614 Business support services 0.63 other 0.59
+5615 Travel arrangement and reservation services 0.21 other 1.64
+5616 Investigation and security services 0.64 other 1.21
+5617 Services to buildings and dwellings 1.42 other 0.55
+5619 Other support services 0.28 other 0.70
+5621 Waste collection 0.16 other 0.38
+5622 Waste treatment and disposal 0.05 other 0.81
+5629 Remediation and other waste management services 0.10 other 0.44
+6111 Elementary and secondary schools 0.69 other 0.58
+6112 Junior colleges 0.07 other 1.03
+6113 Colleges universities and professional schools 1.35 other 1.23
+6114 Business schools and computer and management training 0.06 other 0.90
+6115 Technical and trade schools 0.10 other 0.84
+6116 Other schools and instruction 0.26 other 0.67
+6117 Educational support services 0.06 other 1.25
+6211 Offices of physicians 1.79 other 0.41
+6212 Offices of dentists 0.68 other 0.44
+6213 Offices of other health practitioners 0.51 other 0.37
+6214 Outpatient care centers 0.59 other 0.64
+6215 Medical and diagnostic laboratories 0.19 other 0.81
+6216 Home health care services 0.85 other 0.71
+6219 Other ambulatory health care services 0.23 other 0.41
+6221 General medical and surgical hospitals 4.31 other 0.39
+6222 Psychiatric and substance abuse hospitals 0.19 other 0.60
+6223 Specialty (except psychiatric and substance abuse) hospitals 0.19 other 1.44
+6231 Nursing care facilities 1.37 other 0.27
+6232 Residential mental retardation mental health and substance abuse facilities 0.47 other 0.31
+6233 Community care facilities for the elderly 0.58 other 0.31
+6239 Other residential care facilities 0.14 other 0.41
+6241 Individual and family services 0.92 other 0.51
+6242 Community food and housing and emergency and other relief services 0.15 other 0.62
+6243 Vocational rehabilitation services 0.29 other 0.33
+6244 Child day care services 0.71 other 0.32
+7111 Performing arts companies 0.12 other 2.96
+7112 Spectator sports 0.11 other 0.91
+7113 Promoters of performing arts sports and similar events 0.10 other 1.55
+7114 Agents and managers for artists athletes entertainers 0.02 other 11.15
+7115 Independent artists writers and performers 0.04 other 7.51
+7121 Museums historical sites and similar institutions 0.11 other 1.01
+7131 Amusement parks and arcades 0.11 other 5.98
+7132 Gambling industries 0.18 other 1.37
+7139 Other amusement and recreation industries 0.92 other 0.36
+7211 Traveler accommodation 1.54 other 1.46
+7212 RV (recreational vehicle) parks and recreational camps 0.04 other 0.22
+7213 Rooming and boarding houses 0.01 other 0.84
+8111 Automotive repair and maintenance 0.74 other 0.41
+8112 Electronic and precision equipment repair and maintenance 0.11 other 0.79
+8113 Commercial and industrial machinery and equipment 0.17 other 0.79
+8114 Personal and household goods repair and maintenance 0.09 other 0.53
+8121 Personal care services 0.51 other 0.43
+8122 Death care services 0.12 other 0.24
+8123 Drycleaning and laundry services 0.32 other 0.51
+8129 Other personal services 0.22 other 1.25
+8131 Religious organizations 1.39 other 0.33
+8132 Grantmaking and giving services 0.13 other 1.30
+8133 Social advocacy organizations 0.11 other 1.27
+8134 Civic and social organizations 0.28 other 0.37
+8139 Business professional labor political and similar organizations 0.44 other 1.28

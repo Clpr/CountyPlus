@@ -32,8 +32,68 @@ The rest of this README introduces how this repo is organized. A data dictionary
 
 This repo has two main folders:
 
-- `by-data-source/`: this directory saves the documentation by data source and corresponding program files. The output of these “sub-projects” are used in the data merging.
+- `by-data-source/`: this directory saves the documentation by data source and corresponding program files. The output of these “sub-projects” are used in the data merging. The following is a list of all data sources (checked box: has uploaded to GitHub; unchecked box: still on the way)
+    - [x] `American Community Survey/`: ACS data, to obtain estimate median housing value in 2019
+    - [x] `County Land Areas/`: County area and latitude/longitude data
+    - [x] `CPI All Urban Consumers/`: Inflation
+    - [x] `Current Business Pattern/`: To construct county-industry level, and tradable/non-tradable sector level employment & employment. Also to construct DNWR measure (fraction of wage cut prevented, FWCP)
+    - [x] `Fed Flow of Funds - Balance Sheet of Household and Nonprofit Organizations 1952-2021/`: To obtain aggregate household balance sheet data
+    - [ ] `Fed Flow of Funds - EFA - Household Debt/`: To estimate household debt-to-income ratio
+    - [ ] `Federal Housing Finance Agency/`: Housing Price Index (HPI) data
+    - [ ] `FIPS/`: FIPS code, serving as the primary key of all sub-projects
+    - [ ] `Home Mortgage Disclosure Act/`: HMDA data, for local credit supply data
+    - [ ] `ICE BofA US Corporate Index/`: aggregate bond price index, for constructing the Bartik instrument to the net worth shock
+    - [ ] `Land Unavailability/`: Land unavailability index data, serving as the instrument to housing supply
+    - [ ] `Local Area Unemployment Statistics/`: LAUS unemployment data, for employment population and rate
+    - [x] `Mian Sufi 2014 Tradabilty/`: Strategy of industry classification to tradable, non-tradable, construction, and other. All years code are harmonized.
+    - [x] `NAICS/`: NAICS code, we harmonized the different versions to be consistent with [Mian & Sufi (2014)](https://doi.org/10.3982/ECTA10451)
+    - [ ] `NASDAQ Composite Index/`: aggregate equity asset price, for constructing the Bartik instrument to the net worth shock
+    - [ ] `National State and County Housing Unit Totals/`: Census Bureau housing and population statistics
+    - [ ] `Personal Consumption Expenditure/`: BEA state-level consumption
+    - [ ] `QCEW County-MSA-CSA Crosswalk/`: Crosswalk of county, MSA and CSA; for potential demand of data aggregation
+    - [ ] `Small Area Income and Poverty Estimates/`: SAIPE data, for family median income and poverty indicators
+    - [ ] `Survey of Income/`: SOI data by IRS, for constructing the household balance sheet and net worth shock
+    - [ ] `USDA Educational Attainment for adults/`: for education demographics
+    - [ ] `Vintage Population Estimates for Demographics/`: Population estimates
+    - [ ] `Sales Tax/`: By-state sales tax revenue, taxable consumption, and/or gross sales. These data are used to estimate county consumption
+        - [ ] `1 Alabama/`
+        - [ ] `4 Arizona/`
+        - [ ] `5 Arkansas/`
+        - [ ] `6 California/`
+        - [ ] `8 Colorado/`
+        - [ ] `12 Florida/`
+        - [ ] `17 Illinois/`
+        - [ ] `18 Indiana/`
+        - [ ] `19 Iowa/`
+        - [ ] `22 Louisiana/`
+        - [ ] `27 Minnesota/`
+        - [ ] `29 Missouri/`
+        - [ ] `31 Nebraska/`
+        - [ ] `32 Nevada/`
+        - [ ] `36 New York/`
+        - [ ] `37 North Carolina/`
+        - [ ] `38 North Dakota/`
+        - [ ] `39 Ohio/`
+        - [ ] `42 Pennsylvania/`
+        - [ ] `45 South Carolina/`
+        - [ ] `47 Tennessee/`
+        - [ ] `49 Utah/`
+        - [ ] `50 Vermont/`
+        - [ ] `51 Virginia/`
+        - [ ] `53 Washington/`
+        - [ ] `55 Wisconsin/`
+        - [ ] `56 Wyoming/`
 - `src/`: this directory saves the Stata do-files that merge the outputs of the sub-projects, after-merge process, and export the final `CountyPlus.dta` dataset. One may use `main.do` to call the whole pipeline.
+    - [x] `id.do`: Table: ID (primary key)
+    - [x] `ap.do`: Table: Aggregate prices
+    - [x] `bs.do`: Table: Household balance sheet
+    - [x] `cp.do`: Table: Consumption
+    - [x] `cs.do`: Table: Credit supply
+    - [x] `dg.do`: Table: Demography
+    - [x] `lg.do`: Table: Land and Geography
+    - [x] `yl.do`: Table: Income, poverty, and labor market
+    - [x] `postproc.do`: Post processes
+
 
 ## Citation
 

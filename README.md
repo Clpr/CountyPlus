@@ -22,7 +22,7 @@ The dataset uses all public available data sources for the best replicability. T
 - By data source cleaning instructions, institutional facts, explanation, and programming code
 - Documentations and programs for merging to get the final dataset
 
-One can replicate the whole dataset and every sub-project following the instruction and using program files. For now, we do not provide the download of cleaned Stata file (about 36 MB) on GitHub due to some data policy restriction. But please feel free to contact us to request a copy. 
+One can replicate the whole dataset and every sub-project following the instruction and using program files. We are currently working to prepare the download of the cleaned Stata file (about 36 MB) on GitHub. But please feel free to contact us to request a preview. 
 
 On the current stage, we are actively extending the dataset to cover more variables and time periods. If you have some questions, comments on this dataset, or would like to see some new variables related to your research, you are more than welcome to contact us. We very appreciate your valuable comments.
 
@@ -100,10 +100,11 @@ This repo has two main folders:
 Please cite this dataset by:
 
 ```tex
-@Article{DingZhao2024Nonlinear,
-  author  = {Cheng, Ding and Zhao, Tianhao},
-  journal = {Working paper},
-  title   = {Nonlinear Heterogeneous Impact of Net Worth Shocks},
-  year    = {2024},
+@unpublished{
+  author       = {Cheng Ding and Tianhao Zhao},
+  title        = {Nonlinear Heterogeneous Impact of Net Worth Shocks},
+  note         = {Available at SSRN: \url{https://ssrn.com/abstract=4915272}},
+  month        = aug,
+  year         = {2024},
 }
 ```

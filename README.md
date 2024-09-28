@@ -108,7 +108,7 @@ This repo has two main folders:
 
 ## License & citation
 
-This project is licensed under the MIT License. We encourage users to create their own data builds if they need to adjust any underlying assumptions in the data processing. However, if *CountyPlus* is cited in research, any modifications must be clearly explained to adhere to academic ethics. We are *not* responsible for any errors, bias, or potential data manipulation resulting from such modifications.
+This project is licensed under the MIT License. We encourage users to create their own data builds if they need to adjust any underlying assumptions in the data processing. However, if *CountyPlus* is cited in research, any modifications should be clearly explained to adhere to academic ethics. We are *not* responsible for any errors, bias, or potential data manipulation resulting from such modifications.
 
 Please cite this dataset by:
 

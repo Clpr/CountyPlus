@@ -1,15 +1,15 @@
 # README - Sales tax
 
 * This is a collection of processing state-specific sales tax data. 
-* Each folder is a single small project of processing the corresponding state’s tax data. The processed data are uniformly filled into Excel files using `template.xlsx`
+* Each folder is a single small project of processing the state’s tax data. The processed data are filled into Excel files using `template.xlsx`
 * Then, `main.do` and the programs in folder `scripts/` process these unified Excel files and export Stata data files to `output/` (create it by your own)
 * To check institutional details state by state, check corresponding folders
 
-> ==NOTE==:
+> **NOTE**:
 >
-> 1. All original data are not provided here (but we explain in detail how to locate the original tax records). They are usually digital or scanned PDF, or sometimes Excel files
-> 2. In many states, automatic data extraction is unavailable. We *manually* extract data from digital and scanned PDF files with the help of OCR technology
-> 3. Because the frequent changes of local government website, some data may be moved, removed or updated without prediction. Our instruction of accessing the original tax records may be out of date. If this happens, then:
+> 1. All original data are not provided here (but we explain in detail how to access the original tax records). They are usually digital or scanned PDF, or sometimes Excel files
+> 2. In many states, automatic data extraction is impossible. We *manually* extract data from digital and scanned PDF files with the help of OCR technology
+> 3. Because the frequent changes of local government website, some data may be moved, removed or updated without alerts. Our instruction of accessing the original tax records may be out of date. If this happens, then:
 >     1. Firstly, check the public archive or library service of the state. Most states archive their out-of-date publications as scanned PDF there
 >     2. Then, check the National Archive in which some states archive their public records
 >     3. Also, try directly accessing some files by finding the naming rule of files. Some old files may still saved on the local government’s server

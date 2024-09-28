@@ -52,6 +52,7 @@ This repo has two main folders:
     - [x] `NASDAQ Composite Index/`: aggregate equity asset price, for constructing the Bartik instrument to the net worth shock
     - [x] `National State and County Housing Unit Totals/`: Census Bureau housing and population statistics
     - [ ] `Personal Consumption Expenditure/`: BEA state-level consumption
+    - [x] `Personal Consumption Expenditure/`: BEA state-level consumption
     - [ ] `QCEW County-MSA-CSA Crosswalk/`: Crosswalk of county, MSA and CSA; This is not part of the data release but for users to aggregate the county level data to MSA or CSA levels.
     - [ ] `Small Area Income and Poverty Estimates/`: SAIPE data, for family median income and poverty indicators
     - [ ] `Survey of Income/`: SOI data by IRS, for constructing the household balance sheet and net worth shock

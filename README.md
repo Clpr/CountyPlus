@@ -73,9 +73,9 @@ This repo has two main folders:
     - [x] `Personal Consumption Expenditure/`: BEA state-level consumption
     - [ ] `QCEW County-MSA-CSA Crosswalk/`: Crosswalk of county, MSA and CSA; This is not part of the data release but for users to aggregate the county level data to MSA or CSA levels.
     - [x] `Small Area Income and Poverty Estimates/`: SAIPE data, for family median income and poverty indicators
-    - [ ] `Survey of Income/`: SOI data by IRS, for constructing the household balance sheet and net worth shock
+    - [x] `Survey of Income/`: SOI data by IRS, for constructing the household balance sheet and net worth shock
     - [x] `USDA Educational Attainment for adults/`: for education demographics
-    - [ ] `Vintage Population Estimates for Demographics/`: Population estimates
+    - [x] `Vintage Population Estimates for Demographics/`: Population estimates
     - [ ] `Sales Tax/`: County sales tax revenue, taxable consumption, and/or gross sales. These data are collected from state department of revenues, and are used to estimate county consumption
         - [ ] `1 Alabama/`
         - [ ] `4 Arizona/`

@@ -4,6 +4,15 @@
 
 The first release `v0.0.1` of _CountyPlus_ dataset is available now! We still need a little more time to upload the full documentation but users are encouraged to explore the dataset.
 
+### Future plan
+
+- Release `v0.0.2`:
+    - Add a separate file of constructed net worth shocks parallel to `CountyPlus.dta`
+    - Add variables of local government expenditure, esp. defense expenditure which is a widely used instrument
+    - Add spatial weighting matrices for spatial analysis
+        - First-neighbor adjacency weight
+        - Inverse distance weight (Haversine formula using latitude and longitude)
+
 ## About the dataset
 
 **(This project is still updating. More contents on the way...)**
@@ -34,6 +43,16 @@ The rest of this README introduces how this repo is organized.
 
 This repo has two main folders:
 
+- `src/`: this directory saves the Stata do-files that merge the outputs of the sub-projects, after-merge process, and export the final `CountyPlus.dta` dataset. One may use `main.do` to call the whole pipeline.
+    - [x] `id.do`: Table: ID (primary key)
+    - [x] `ap.do`: Table: Aggregate prices
+    - [x] `bs.do`: Table: Household balance sheet
+    - [x] `cp.do`: Table: Consumption
+    - [x] `cs.do`: Table: Credit supply
+    - [x] `dg.do`: Table: Demography
+    - [x] `lg.do`: Table: Land and Geography
+    - [x] `yl.do`: Table: Income, poverty, and labor market
+    - [x] `postproc.do`: Post-merging processes
 - `by-data-source/`: this directory saves the documentation by data source and corresponding program files. The output of these “sub-projects” are used in the data merging. The following is a list of all data sources (checked box: has uploaded to GitHub; unchecked box: still on the way)
     - [x] `American Community Survey/`: ACS data, to obtain estimate median housing value in 2019
     - [x] `County Land Areas/`: County area and latitude/longitude data
@@ -45,13 +64,12 @@ This repo has two main folders:
     - [x] `FIPS/`: FIPS code, serving as the primary key of all sub-projects
     - [x] `Home Mortgage Disclosure Act/`: HMDA data, for local credit supply data
     - [x] `ICE BofA US Corporate Index/`: aggregate bond price index, for constructing the Bartik instrument to the net worth shock
-    - [x] `Land Unavailability/`: Land unavailability index data, serving as the instrument to housing supply
+    - [x] `Land Unavailability/`: Land unavailability index data by [Lutz & Sand (2023)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3478900), serving as the instrument to housing supply
     - [x] `Local Area Unemployment Statistics/`: LAUS unemployment data, for employment population and rate
     - [x] `Mian Sufi 2014 Tradabilty/`: Strategy of industry classification to tradable, non-tradable, construction, and other. All years code are harmonized.
     - [x] `NAICS/`: NAICS code, we harmonized the different versions to be consistent with [Mian & Sufi (2014)](https://doi.org/10.3982/ECTA10451)
     - [x] `NASDAQ Composite Index/`: aggregate equity asset price, for constructing the Bartik instrument to the net worth shock
     - [x] `National State and County Housing Unit Totals/`: Census Bureau housing and population statistics
-    - [ ] `Personal Consumption Expenditure/`: BEA state-level consumption
     - [x] `Personal Consumption Expenditure/`: BEA state-level consumption
     - [ ] `QCEW County-MSA-CSA Crosswalk/`: Crosswalk of county, MSA and CSA; This is not part of the data release but for users to aggregate the county level data to MSA or CSA levels.
     - [ ] `Small Area Income and Poverty Estimates/`: SAIPE data, for family median income and poverty indicators
@@ -86,16 +104,6 @@ This repo has two main folders:
         - [ ] `53 Washington/`
         - [ ] `55 Wisconsin/`
         - [ ] `56 Wyoming/`
-- `src/`: this directory saves the Stata do-files that merge the outputs of the sub-projects, after-merge process, and export the final `CountyPlus.dta` dataset. One may use `main.do` to call the whole pipeline.
-    - [x] `id.do`: Table: ID (primary key)
-    - [x] `ap.do`: Table: Aggregate prices
-    - [x] `bs.do`: Table: Household balance sheet
-    - [x] `cp.do`: Table: Consumption
-    - [x] `cs.do`: Table: Credit supply
-    - [x] `dg.do`: Table: Demography
-    - [x] `lg.do`: Table: Land and Geography
-    - [x] `yl.do`: Table: Income, poverty, and labor market
-    - [x] `postproc.do`: Post-merging processes
 
 
 ## License & citation

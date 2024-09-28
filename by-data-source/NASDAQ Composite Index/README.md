@@ -5,7 +5,7 @@
 * **Input**: [Fred](https://fred.stlouisfed.org/series/NASDAQCOM)
     * Series Code: `NASDAQCOM`
 
-<img src="README.assets/data%20source.jpg" alt="data source" style="zoom:50%;" />
+<img src="data%20source.jpg" alt="data source" style="zoom:50%;" />
 
 * **Processing files**:
     * `make.do`

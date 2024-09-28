@@ -43,14 +43,14 @@ This repo has two main folders:
     - [x] `Fed Flow of Funds - EFA - Household Debt/`: To estimate household debt-to-income ratio
     - [x] `Federal Housing Finance Agency/`: Housing Price Index (HPI) data
     - [x] `FIPS/`: FIPS code, serving as the primary key of all sub-projects
-    - [ ] `Home Mortgage Disclosure Act/`: HMDA data, for local credit supply data
+    - [x] `Home Mortgage Disclosure Act/`: HMDA data, for local credit supply data
     - [x] `ICE BofA US Corporate Index/`: aggregate bond price index, for constructing the Bartik instrument to the net worth shock
     - [x] `Land Unavailability/`: Land unavailability index data, serving as the instrument to housing supply
     - [x] `Local Area Unemployment Statistics/`: LAUS unemployment data, for employment population and rate
     - [x] `Mian Sufi 2014 Tradabilty/`: Strategy of industry classification to tradable, non-tradable, construction, and other. All years code are harmonized.
     - [x] `NAICS/`: NAICS code, we harmonized the different versions to be consistent with [Mian & Sufi (2014)](https://doi.org/10.3982/ECTA10451)
     - [x] `NASDAQ Composite Index/`: aggregate equity asset price, for constructing the Bartik instrument to the net worth shock
-    - [ ] `National State and County Housing Unit Totals/`: Census Bureau housing and population statistics
+    - [x] `National State and County Housing Unit Totals/`: Census Bureau housing and population statistics
     - [ ] `Personal Consumption Expenditure/`: BEA state-level consumption
     - [ ] `QCEW County-MSA-CSA Crosswalk/`: Crosswalk of county, MSA and CSA; This is not part of the data release but for users to aggregate the county level data to MSA or CSA levels.
     - [ ] `Small Area Income and Poverty Estimates/`: SAIPE data, for family median income and poverty indicators

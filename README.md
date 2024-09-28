@@ -42,22 +42,22 @@ This repo has two main folders:
     - [x] `Fed Flow of Funds - Balance Sheet of Household and Nonprofit Organizations 1952-2021/`: To obtain aggregate household balance sheet data
     - [x] `Fed Flow of Funds - EFA - Household Debt/`: To estimate household debt-to-income ratio
     - [ ] `Federal Housing Finance Agency/`: Housing Price Index (HPI) data
-    - [ ] `FIPS/`: FIPS code, serving as the primary key of all sub-projects
+    - [x] `FIPS/`: FIPS code, serving as the primary key of all sub-projects
     - [ ] `Home Mortgage Disclosure Act/`: HMDA data, for local credit supply data
-    - [ ] `ICE BofA US Corporate Index/`: aggregate bond price index, for constructing the Bartik instrument to the net worth shock
+    - [x] `ICE BofA US Corporate Index/`: aggregate bond price index, for constructing the Bartik instrument to the net worth shock
     - [x] `Land Unavailability/`: Land unavailability index data, serving as the instrument to housing supply
     - [x] `Local Area Unemployment Statistics/`: LAUS unemployment data, for employment population and rate
     - [x] `Mian Sufi 2014 Tradabilty/`: Strategy of industry classification to tradable, non-tradable, construction, and other. All years code are harmonized.
     - [x] `NAICS/`: NAICS code, we harmonized the different versions to be consistent with [Mian & Sufi (2014)](https://doi.org/10.3982/ECTA10451)
-    - [ ] `NASDAQ Composite Index/`: aggregate equity asset price, for constructing the Bartik instrument to the net worth shock
+    - [x] `NASDAQ Composite Index/`: aggregate equity asset price, for constructing the Bartik instrument to the net worth shock
     - [ ] `National State and County Housing Unit Totals/`: Census Bureau housing and population statistics
     - [ ] `Personal Consumption Expenditure/`: BEA state-level consumption
-    - [ ] `QCEW County-MSA-CSA Crosswalk/`: Crosswalk of county, MSA and CSA; for potential demand of data aggregation
+    - [ ] `QCEW County-MSA-CSA Crosswalk/`: Crosswalk of county, MSA and CSA; This is not part of the data release but for users to aggregate the county level data to MSA or CSA levels.
     - [ ] `Small Area Income and Poverty Estimates/`: SAIPE data, for family median income and poverty indicators
     - [ ] `Survey of Income/`: SOI data by IRS, for constructing the household balance sheet and net worth shock
     - [ ] `USDA Educational Attainment for adults/`: for education demographics
     - [ ] `Vintage Population Estimates for Demographics/`: Population estimates
-    - [ ] `Sales Tax/`: By-state sales tax revenue, taxable consumption, and/or gross sales. These data are used to estimate county consumption
+    - [ ] `Sales Tax/`: County sales tax revenue, taxable consumption, and/or gross sales. These data are collected from state department of revenues, and are used to estimate county consumption
         - [ ] `1 Alabama/`
         - [ ] `4 Arizona/`
         - [ ] `5 Arkansas/`

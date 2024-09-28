@@ -76,7 +76,7 @@ This repo has two main folders:
     - [x] `Survey of Income/`: SOI data by IRS, for constructing the household balance sheet and net worth shock
     - [x] `USDA Educational Attainment for adults/`: for education demographics
     - [x] `Vintage Population Estimates for Demographics/`: Population estimates
-    - [ ] `Sales Tax/`: County sales tax revenue, taxable consumption, and/or gross sales. These data are collected from state department of revenues, and are used to estimate county consumption
+    - [x] `Sales Tax/`: County sales tax revenue, taxable consumption, and/or gross sales. These data are collected from state department of revenues, and are used to estimate county consumption
         - [ ] `1 Alabama/`
         - [ ] `4 Arizona/`
         - [ ] `5 Arkansas/`

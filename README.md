@@ -1,10 +1,14 @@
 # CountyPlus
 
-> Last update: July 02, 2024
+## Release
+
+The first release `v0.0.1` of _CountyPlus_ dataset is available now! We still need a little more time to upload the full documentation but users are encouraged to explore the dataset.
+
+## About the dataset
 
 **(This project is still updating. More contents on the way...)**
 
-*CountyPlus* dataset is a county-level panel dataset for economic research. It consists of 3000+ U.S. counties years from 2003 to 2019 while covering a broad collection of county-scope variables: 
+*CountyPlus* dataset is an open-source county-level panel dataset for economic and social science research. It consists of 3000+ U.S. counties years from 2003 to 2019 while covering a broad collection of county-scope variables: 
 
 - County geographic and demographic characteristics
 - Household balance sheets e.g. holdings by asset type
@@ -22,11 +26,9 @@ The dataset uses all public available data sources for the best replicability. T
 - By data source cleaning instructions, institutional facts, explanation, and programming code
 - Documentations and programs for merging to get the final dataset
 
-One can replicate the whole dataset and every sub-project following the instruction and using program files. We are currently working to prepare the download of the cleaned Stata file (about 36 MB) on GitHub. But please feel free to contact us to request a preview. 
+One can replicate the whole dataset and every sub-project following the instruction and using program files. On the current stage, we are actively extending the dataset to cover more variables and time periods. If you have some questions, comments on this dataset, or would like to see some new variables related to your research, you are more than welcome to contact us. We very appreciate your valuable comments.
 
-On the current stage, we are actively extending the dataset to cover more variables and time periods. If you have some questions, comments on this dataset, or would like to see some new variables related to your research, you are more than welcome to contact us. We very appreciate your valuable comments.
-
-The rest of this README introduces how this repo is organized. A data dictionary is available as a csv file: [data_dictionary.csv](“./data_dictionary.csv")
+The rest of this README introduces how this repo is organized.
 
 ## Repo structure
 
@@ -38,7 +40,7 @@ This repo has two main folders:
     - [x] `CPI All Urban Consumers/`: Inflation
     - [x] `Current Business Pattern/`: To construct county-industry level, and tradable/non-tradable sector level employment & employment. Also to construct DNWR measure (fraction of wage cut prevented, FWCP)
     - [x] `Fed Flow of Funds - Balance Sheet of Household and Nonprofit Organizations 1952-2021/`: To obtain aggregate household balance sheet data
-    - [ ] `Fed Flow of Funds - EFA - Household Debt/`: To estimate household debt-to-income ratio
+    - [x] `Fed Flow of Funds - EFA - Household Debt/`: To estimate household debt-to-income ratio
     - [ ] `Federal Housing Finance Agency/`: Housing Price Index (HPI) data
     - [ ] `FIPS/`: FIPS code, serving as the primary key of all sub-projects
     - [ ] `Home Mortgage Disclosure Act/`: HMDA data, for local credit supply data
@@ -92,10 +94,12 @@ This repo has two main folders:
     - [x] `dg.do`: Table: Demography
     - [x] `lg.do`: Table: Land and Geography
     - [x] `yl.do`: Table: Income, poverty, and labor market
-    - [x] `postproc.do`: Post processes
+    - [x] `postproc.do`: Post-merging processes
 
 
-## Citation
+## License & citation
+
+This project is licensed under the MIT License. We encourage users to create their own data builds if they need to adjust any underlying assumptions in the data processing. However, if *CountyPlus* is cited in research, any modifications must be clearly explained to adhere to academic ethics. We are *not* responsible for any errors, bias, or potential data manipulation resulting from such modifications.
 
 Please cite this dataset by:
 

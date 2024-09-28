@@ -41,7 +41,7 @@ This repo has two main folders:
     - [x] `Current Business Pattern/`: To construct county-industry level, and tradable/non-tradable sector level employment & employment. Also to construct DNWR measure (fraction of wage cut prevented, FWCP)
     - [x] `Fed Flow of Funds - Balance Sheet of Household and Nonprofit Organizations 1952-2021/`: To obtain aggregate household balance sheet data
     - [x] `Fed Flow of Funds - EFA - Household Debt/`: To estimate household debt-to-income ratio
-    - [ ] `Federal Housing Finance Agency/`: Housing Price Index (HPI) data
+    - [x] `Federal Housing Finance Agency/`: Housing Price Index (HPI) data
     - [x] `FIPS/`: FIPS code, serving as the primary key of all sub-projects
     - [ ] `Home Mortgage Disclosure Act/`: HMDA data, for local credit supply data
     - [x] `ICE BofA US Corporate Index/`: aggregate bond price index, for constructing the Bartik instrument to the net worth shock

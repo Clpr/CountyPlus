@@ -45,8 +45,8 @@ This repo has two main folders:
     - [ ] `FIPS/`: FIPS code, serving as the primary key of all sub-projects
     - [ ] `Home Mortgage Disclosure Act/`: HMDA data, for local credit supply data
     - [ ] `ICE BofA US Corporate Index/`: aggregate bond price index, for constructing the Bartik instrument to the net worth shock
-    - [ ] `Land Unavailability/`: Land unavailability index data, serving as the instrument to housing supply
-    - [ ] `Local Area Unemployment Statistics/`: LAUS unemployment data, for employment population and rate
+    - [x] `Land Unavailability/`: Land unavailability index data, serving as the instrument to housing supply
+    - [x] `Local Area Unemployment Statistics/`: LAUS unemployment data, for employment population and rate
     - [x] `Mian Sufi 2014 Tradabilty/`: Strategy of industry classification to tradable, non-tradable, construction, and other. All years code are harmonized.
     - [x] `NAICS/`: NAICS code, we harmonized the different versions to be consistent with [Mian & Sufi (2014)](https://doi.org/10.3982/ECTA10451)
     - [ ] `NASDAQ Composite Index/`: aggregate equity asset price, for constructing the Bartik instrument to the net worth shock

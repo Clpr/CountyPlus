@@ -1,19 +1,19 @@
 # README - Sales tax
 
-* This is a collection of processing state-specific sales tax data. 
-* Each folder is a single small project of processing the state’s tax data. The processed data are filled into Excel files using `template.xlsx`
-* Then, `main.do` and the programs in folder `scripts/` process these unified Excel files and export Stata data files to `output/` (create it by your own)
-* To check institutional details state by state, check corresponding folders
+* This is a collection of documentations about processing local sales tax data. 
+* Each folder named by a state is a single project of processing the state’s tax data. To check the details state by state, please check corresponding folders
+* The processed data are filled into Excel files using `template.xlsx`. In each state’s folder:
+    * A `README.md` is available which explains essential institutional facts, data processing, and other information
+    * A `downloaded files.png` that displays the file names of downloaded tax records. Users who want to exactly align with our data build may check this.
+    * Other essential files.
 
-> **NOTE**:
->
-> 1. All original data are not provided here (but we explain in detail how to access the original tax records). They are usually digital or scanned PDF, or sometimes Excel files
-> 2. In many states, automatic data extraction is impossible. We *manually* extract data from digital and scanned PDF files with the help of OCR technology
-> 3. Because the frequent changes of local government website, some data may be moved, removed or updated without alerts. Our instruction of accessing the original tax records may be out of date. If this happens, then:
->     1. Firstly, check the public archive or library service of the state. Most states archive their out-of-date publications as scanned PDF there
->     2. Then, check the National Archive in which some states archive their public records
->     3. Also, try directly accessing some files by finding the naming rule of files. Some old files may still saved on the local government’s server
->     4. Please let us know if all these methods do not work.
+* Then, `main.do` and the programs in folder `scripts/` process these unified Excel files and export Stata data files to `output/` (create it by your own)
+
+## Important disclaimers
+
+We provide detailed instructions on how to legally access these publicly available tax data within the United States. However, NO raw data, which are often in form of PDF files or MS Excel files, have been and will be uploaded to this GitHub repository in order to avoid any potential copyright disputes or violations of local government data disclosure policies.
+
+We understand that local government public data disclosure policies may change over time. If any of the instructions for accessing public tax records documented in this repository become non-compliant at any point in the future, we will remove them upon receiving notification.
 
 ## Output files
 

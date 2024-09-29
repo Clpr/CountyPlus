@@ -77,33 +77,33 @@ This repo has two main folders:
     - [x] `USDA Educational Attainment for adults/`: for education demographics
     - [x] `Vintage Population Estimates for Demographics/`: Population estimates
     - [x] `Sales Tax/`: County sales tax revenue, taxable consumption, and/or gross sales. These data are collected from state department of revenues, and are used to estimate county consumption
-        - [ ] `1 Alabama/`
-        - [ ] `4 Arizona/`
-        - [ ] `5 Arkansas/`
-        - [ ] `6 California/`
-        - [ ] `8 Colorado/`
-        - [ ] `12 Florida/`
-        - [ ] `17 Illinois/`
-        - [ ] `18 Indiana/`
-        - [ ] `19 Iowa/`
-        - [ ] `22 Louisiana/`
-        - [ ] `27 Minnesota/`
-        - [ ] `29 Missouri/`
-        - [ ] `31 Nebraska/`
-        - [ ] `32 Nevada/`
-        - [ ] `36 New York/`
-        - [ ] `37 North Carolina/`
-        - [ ] `38 North Dakota/`
-        - [ ] `39 Ohio/`
-        - [ ] `42 Pennsylvania/`
-        - [ ] `45 South Carolina/`
-        - [ ] `47 Tennessee/`
-        - [ ] `49 Utah/`
-        - [ ] `50 Vermont/`
-        - [ ] `51 Virginia/`
-        - [ ] `53 Washington/`
-        - [ ] `55 Wisconsin/`
-        - [ ] `56 Wyoming/`
+        - [x] `1 Alabama/`
+        - [x] `4 Arizona/`
+        - [x] `5 Arkansas/`
+        - [x] `6 California/`
+        - [x] `8 Colorado/`
+        - [x] `12 Florida/`
+        - [x] `17 Illinois/`
+        - [x] `18 Indiana/`
+        - [x] `19 Iowa/`
+        - [x] `22 Louisiana/`
+        - [x] `27 Minnesota/`
+        - [x] `29 Missouri/`
+        - [x] `31 Nebraska/`
+        - [x] `32 Nevada/`
+        - [x] `36 New York/`
+        - [x] `37 North Carolina/`
+        - [x] `38 North Dakota/`
+        - [x] `39 Ohio/`
+        - [x] `42 Pennsylvania/`
+        - [x] `45 South Carolina/`
+        - [x] `47 Tennessee/`
+        - [x] `49 Utah/`
+        - [x] `50 Vermont/`
+        - [x] `51 Virginia/`
+        - [x] `53 Washington/`
+        - [x] `55 Wisconsin/`
+        - [x] `56 Wyoming/`
 
 
 ## License & citation

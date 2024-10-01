@@ -2,20 +2,18 @@
 
 ## Release
 
-The first release `v0.0.1` of _CountyPlus_ dataset is available now! We still need a little more time to upload the full documentation but users are encouraged to explore the dataset.
+The first release `v0.0.1` of _CountyPlus_ dataset is available now! You are welcome to download and explore the dataset.
 
 ### Future plan
 
-- Release `v0.0.2`:
-    - Add a separate file of constructed net worth shocks parallel to `CountyPlus.dta`
+- Release `v0.0.2` (expected: Nov 2024):
+    - Add a separate file of constructed county-level net worth shocks since 2004
     - Add variables of local government expenditure, esp. defense expenditure which is a widely used instrument
     - Add spatial weighting matrices for spatial analysis
         - First-neighbor adjacency weight
         - Inverse distance weight (Haversine formula using latitude and longitude)
 
 ## About the dataset
-
-**(This project is still updating. More contents on the way...)**
 
 *CountyPlus* dataset is an open-source county-level panel dataset for economic and social science research. It consists of 3000+ U.S. counties years from 2003 to 2019 while covering a broad collection of county-scope variables: 
 
@@ -26,9 +24,12 @@ The first release `v0.0.1` of _CountyPlus_ dataset is available now! We still ne
 - Local sales tax and taxable consumption
 - Local labor market indicators such as wage and employment
 - Local house market indicators such as house price and house ownership
-- Local credit supply, mainly about home mortgage loans
-- Local industry size, payroll and diversity
-- Indicators of local economic frictions: collateral constraint, and downward nominal wage rigidity (DNWR)
+- Local credit supply e.g. home mortgage loans
+- Local industry size, payroll and industry diversity
+- Indicators of local economic frictions
+    - collateral constraint
+    - Downward Nominal Wage Rigidity (DNWR)
+
 
 The dataset uses all public available data sources for the best replicability. This GitHub repo provides detailed data documentation for *CountyPlus* dataset including:
 
@@ -76,7 +77,7 @@ This repo has two main folders:
     - [x] `Survey of Income/`: SOI data by IRS, for constructing the household balance sheet and net worth shock
     - [x] `USDA Educational Attainment for adults/`: for education demographics
     - [x] `Vintage Population Estimates for Demographics/`: Population estimates
-    - [x] `Sales Tax/`: County sales tax revenue, taxable consumption, and/or gross sales. These data are collected from state department of revenues, and are used to estimate county consumption
+    - [x] `Sales Tax/`: County sales tax revenue, taxable consumption, and/or gross sales. These data are collected from state department of revenues, and are used to estimate household consumption of counties
         - [x] `1 Alabama/`
         - [x] `4 Arizona/`
         - [x] `5 Arkansas/`
@@ -108,7 +109,7 @@ This repo has two main folders:
 
 ## License & citation
 
-This project is licensed under the MIT License. We encourage users to create their own data builds if they need to adjust any underlying assumptions in the data processing. However, if *CountyPlus* is cited in research, any modifications should be clearly explained to adhere to academic ethics. We are *not* responsible for any errors, bias, or potential data manipulation resulting from such modifications.
+This project is licensed under the MIT License. Users are welcome to create their own data builds if they need to adjust any underlying assumptions in the data processing. However, if *CountyPlus* is cited in research, all modifications should be explained to adhere to academic ethics. We are not responsible for any errors, bias, or potential data manipulation resulting from such modifications.
 
 Please cite this dataset by:
 

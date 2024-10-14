@@ -106,6 +106,15 @@ This repo has two main folders:
         - [x] `55 Wisconsin/`
         - [x] `56 Wyoming/`
 
+## Some data visualizations
+
+**Figure**: Household leverage ratio (debt/housing wealth) over time
+
+<img src="README.assets/figure_d2h_anime.gif" alt="figure_d2h_anime" style="zoom:80%;" />
+
+**Figure**: Household balance sheet structure over time
+
+<img src="README.assets/figure_h2asset.jpg" alt="figure_h2asset" style="zoom:50%;" />
 
 ## License & citation
 

@@ -2,16 +2,20 @@
 
 ## Release
 
-The first release `v0.0.1` of _CountyPlus_ dataset is available now! You are welcome to download and explore the dataset.
+The first release `v0.0.2` of _CountyPlus_ dataset is available now! You are welcome to download and explore the dataset.
+
+## New in v0.0.2
+
+- Add a separate file of constructed county-level net worth shocks since 2004
+- Add spatial weighting matrices for spatial analysis
+    - First-neighbor adjacency weight
+    - Inverse distance weight (Haversine formula using latitude and longitude)
 
 ### Future plan
 
-- Release `v0.0.2` (expected: Nov 2024):
-    - Add a separate file of constructed county-level net worth shocks since 2004
+- Release `v0.0.3` (expected: Jan 2025):
     - Add variables of local government expenditure, esp. defense expenditure which is a widely used instrument
-    - Add spatial weighting matrices for spatial analysis
-        - First-neighbor adjacency weight
-        - Inverse distance weight (Haversine formula using latitude and longitude)
+    - Larger coverage of consumption estimates, and distinguish between durable and non-durable goods consumption.
 
 ## About the dataset
 
@@ -125,7 +129,7 @@ Please cite this dataset by:
 ```tex
 @unpublished{
   author       = {Cheng Ding and Tianhao Zhao},
-  title        = {Nonlinear Heterogeneous Impact of Net Worth Shocks},
+  title        = {Frictions, Net Worth Shocks, and Heterogeneous Impacts},
   note         = {Available at SSRN: \url{https://ssrn.com/abstract=4915272}},
   month        = aug,
   year         = {2024},

@@ -1,0 +1,10 @@
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+ProgressBars = "49802e3a-d2f1-5c88-81d8-b72133a6f568"
+ReadStatTables = "52522f7a-9570-4e34-8ac6-c005c74d4b84"
+StatFiles = "1463e38c-9381-5320-bcd4-4134955f093a"
+YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"

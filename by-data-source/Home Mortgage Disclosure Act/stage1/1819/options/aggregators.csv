@@ -1,0 +1,12 @@
+﻿item,continuity,notes
+action_taken,discrete,
+race,discrete,by action taken
+sex,discrete,by action taken
+denial_reason,discrete,
+rate_spread,continuous,
+loan_amount_complete,continuous,continuous variables are summarized by action taken due to data structure limitation
+loan_amount_approval,continuous,
+loan_amount_denial,continuous,
+income_complete,continuous,
+income_approval,continuous,
+income_denial,continuous,

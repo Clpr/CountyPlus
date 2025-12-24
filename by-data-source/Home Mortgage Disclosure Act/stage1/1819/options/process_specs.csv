@@ -1,0 +1,100 @@
+variable,dtype,variable_harmonized,label,column_index,in_2018,in_2019
+activity_year,int,year,The calendar year the data submission covers,1,TRUE,TRUE
+lei,str,id,A financial institution’s Legal Entity Identifier,2,TRUE,TRUE
+derived_msa_md,int,property_msa,The 5 digit derived MSA (metropolitan statistical area) or MD (metropolitan division) code,3,TRUE,TRUE
+state_code,str,state_abbr,Two-letter state code,4,TRUE,TRUE
+county_code,int,fips,5-digit State-county FIPS code,5,TRUE,TRUE
+census_tract,int,,11 digit census tract number,6,TRUE,TRUE
+conforming_loan_limit,str,,Indicates whether the reported loan amount exceeds the GSE (government sponsored enterprise) conforming loan limit,7,TRUE,TRUE
+derived_loan_product_type,str,,Derived loan product type from Loan Type and Lien Status fields for easier querying of specific records,8,TRUE,TRUE
+derived_dwelling_category,str,,Derived dwelling type from Construction Method and Total Units fields for easier querying of specific records,9,TRUE,TRUE
+derived_ethnicity,str,,Single aggregated ethnicity categorization derived from applicant/borrower and co-applicant/co-borrower ethnicity fields,10,TRUE,TRUE
+derived_race,str,,Single aggregated race categorization derived from applicant/borrower and co-applicant/co-borrower race fields,11,TRUE,TRUE
+derived_sex,str,,Single aggregated sex categorization derived from applicant/borrower and co-applicant/co-borrower sex fields,12,TRUE,TRUE
+action_taken,int,,The action taken on the covered loan or application,13,TRUE,TRUE
+purchaser_type,int,,Type of entity purchasing a covered loan from the institution,14,TRUE,TRUE
+preapproval,int,preapprovals,Whether the covered loan or application involved a request for a preapproval of a home purchase loan under a preapproval program,15,TRUE,TRUE
+loan_type,int,,The type of covered loan or application,16,TRUE,TRUE
+loan_purpose,int,,The purpose of covered loan or application,17,TRUE,TRUE
+lien_status,int,,"Lien status of the property securing the covered loan, or in the case of an application, proposed to secure the covered loan",18,TRUE,TRUE
+reverse_mortgage,int,,Whether the covered loan or application is for a reverse mortgage,19,TRUE,TRUE
+open_end_line_of_credit,int,,Whether the covered loan or application is for an open-end line of credit,20,TRUE,TRUE
+business_or_commercial_purpose,int,,Whether the covered loan or application is primarily for a business or commercial purpose,21,TRUE,TRUE
+loan_amount,float,loan_amount,"The amount of the covered loan, or the amount applied for",22,TRUE,TRUE
+combined_loan_to_value_ratio,float,,The ratio of the total amount of debt secured by the property to the value of the property relied on in making the credit decision,23,TRUE,TRUE
+interest_rate,float,,The interest rate for the covered loan or application,24,TRUE,TRUE
+rate_spread,float,,The difference between the covered loan’s annual percentage rate (APR) and the average prime offer rate (APOR) for a comparable transaction as of the date the interest rate is set,25,TRUE,TRUE
+hoepa_status,int,,Whether the covered loan is a high-cost mortgage,26,TRUE,TRUE
+total_loan_costs,float,,"The amount, in dollars, of total loan costs",27,TRUE,TRUE
+total_points_and_fees,str,,"The total points and fees, in dollars, charged in connection with the covered loan",28,TRUE,TRUE
+origination_charges,float,,"The total of all itemized amounts, in dollars, that are designated borrower-paid at or before closing",29,TRUE,TRUE
+discount_points,float,,"The points paid, in dollars, to the creditor to reduce the interest rate",30,TRUE,TRUE
+lender_credits,float,,"The amount, in dollars, of lender credits",31,TRUE,TRUE
+loan_term,int,,"The number of months after which the legal obligation will mature or terminate, or would have matured or terminated",32,TRUE,TRUE
+prepayment_penalty_term,float,type_purchase_name,"The term, in months, of any prepayment penalty",33,TRUE,TRUE
+intro_rate_period,int,type_purchaser,"The number of months, or proposed number of months in the case of an application, until the first date the interest rate may change after closing or account opening",34,TRUE,TRUE
+negative_amortization,int,,"Whether the contractual terms include, or would have included, a term that would cause the covered loan to be a negative amortization loan",35,TRUE,TRUE
+interest_only_payment,int,,"Whether the contractual terms include, or would have included, interest-only payments",36,TRUE,TRUE
+balloon_payment,int,,"Whether the contractual terms include, or would have included, a balloon payment",37,TRUE,TRUE
+other_nonamortizing_features,int,,"Whether the contractual terms include, or would have included, any term, other than those described in Paragraphs 1003.4(a)(27)(i), (ii), and (iii) that would allow for payments other than fully amortizing payments during the loan term",38,TRUE,TRUE
+property_value,flaot,,"The value of the property securing the covered loan or, in the case of an application, proposed to secure the covered loan, relied on in making the credit decision",39,TRUE,TRUE
+construction_method,int,,Construction method for the dwelling,40,TRUE,TRUE
+occupancy_type,int,occupancy,Occupancy type for the dwelling,41,TRUE,TRUE
+manufactured_home_secured_property_type,int,,"Whether the covered loan or application is, or would have been, secured by a manufactured home and land, or by a manufactured home and not land",42,TRUE,TRUE
+manufactured_home_land_property_interest,int,,"The applicant’s or borrower’s land property interest in the land on which a manufactured home is, or will be, located",43,TRUE,TRUE
+total_units,int,,"The number of individual dwelling units related to the property securing the covered loan or, in the case of an application, proposed to secure the covered loan",44,TRUE,TRUE
+multifamily_affordable_units,int,,"Reported values as a percentage, rounded to the nearest whole number, of the value reported for Total Units",45,TRUE,TRUE
+income,float,income,"The gross annual income, in thousands of dollars, relied on in making the credit decision, or if a credit decision was not made, the gross annual income relied on in processing the application",46,TRUE,TRUE
+debt_to_income_ratio,str,,"The ratio, as a percentage, of the applicant’s or borrower’s total monthly debt to the total monthly income relied on in making the credit decision",47,TRUE,TRUE
+applicant_credit_score_type,int,,"The name and version of the credit scoring model used to generate the credit score, or scores, relied on in making the credit decision",48,TRUE,TRUE
+co_applicant_credit_score_type,int,,"The name and version of the credit scoring model used to generate the credit score, or scores, relied on in making the credit decision",49,TRUE,TRUE
+applicant_ethnicity_1,int,ethnicity1,Ethnicity of the applicant or borrower,50,TRUE,TRUE
+applicant_ethnicity_2,int,ethnicity2,,51,TRUE,TRUE
+applicant_ethnicity_3,int,ethnicity3,,52,TRUE,TRUE
+applicant_ethnicity_4,int,ethnicity4,,53,TRUE,TRUE
+applicant_ethnicity_5,int,ethnicity5,,54,TRUE,TRUE
+co_applicant_ethnicity_1,int,ethnicity1_coapplicant,Ethnicity of the first co-applicant or co-borrower,55,TRUE,TRUE
+co_applicant_ethnicity_2,int,ethnicity1_coapplicant,,56,TRUE,TRUE
+co_applicant_ethnicity_3,int,ethnicity1_coapplicant,,57,TRUE,TRUE
+co_applicant_ethnicity_4,int,ethnicity1_coapplicant,,58,TRUE,TRUE
+co_applicant_ethnicity_5,int,ethnicity1_coapplicant,,59,TRUE,TRUE
+applicant_ethnicity_observed,int,,Whether the ethnicity of the applicant or borrower was collected on the basis of visual observation or surname,60,TRUE,TRUE
+co_applicant_ethnicity_observed,int,,Whether the ethnicity of the first co-applicant or co-borrower was collected on the basis of visual observation or surname,61,TRUE,TRUE
+applicant_race_1,int,race1,Race of the applicant or borrower,62,TRUE,TRUE
+applicant_race_2,int,race2,,63,TRUE,TRUE
+applicant_race_3,int,race3,,64,TRUE,TRUE
+applicant_race_4,int,race4,,65,TRUE,TRUE
+applicant_race_5,int,race5,,66,TRUE,TRUE
+co_applicant_race_1,int,race1_coapplicant,Race of the first co-applicant or co-borrower,67,TRUE,TRUE
+co_applicant_race_2,int,race1_coapplicant,,68,TRUE,TRUE
+co_applicant_race_3,int,race1_coapplicant,,69,TRUE,TRUE
+co_applicant_race_4,int,race1_coapplicant,,70,TRUE,TRUE
+co_applicant_race_5,int,race1_coapplicant,,71,TRUE,TRUE
+applicant_race_observed,int,,Whether the race of the applicant or borrower was collected on the basis of visual observation or surname,72,TRUE,TRUE
+co_applicant_race_observed,int,,Whether the race of the first co-applicant or co-borrower was collected on the basis of visual observation or surname,73,TRUE,TRUE
+applicant_sex,int,sex,Sex of the applicant or borrower,74,TRUE,TRUE
+co_applicant_sex,int,sex_coapplicant,Sex of the first co-applicant or co-borrower,75,TRUE,TRUE
+applicant_sex_observed,int,,Whether the sex of the applicant or borrower was collected on the basis of visual observation or surname,76,TRUE,TRUE
+co_applicant_sex_observed,int,,Whether the sex of the first co-applicant or co-borrower was collected on the basis of visual observation or surname,77,TRUE,TRUE
+applicant_age,str,,The age of the applicant,78,TRUE,TRUE
+co_applicant_age,str,,,79,TRUE,TRUE
+applicant_age_above_62,str,,Whether the applicant or borrower age is 62 or above,80,TRUE,TRUE
+co_applicant_age_above_62,str,,,81,TRUE,TRUE
+submission_of_application,int,,Whether the applicant or borrower submitted the application directly to the financial institution,82,TRUE,TRUE
+initially_payable_to_institution,int,,"Whether the obligation arising from the covered loan was, or, in the case of an application, would have been, initially payable to the financial institution",83,TRUE,TRUE
+aus_1,int,,The automated underwriting system(s) (AUS) used by the financial institution to evaluate the application,84,TRUE,TRUE
+aus_2,int,,,85,TRUE,TRUE
+aus_3,int,,,86,TRUE,TRUE
+aus_4,int,,,87,TRUE,TRUE
+aus_5,int,,,88,TRUE,TRUE
+denial_reason_1,int,denial_reason1,"The principal reason, or reasons, for denial",89,TRUE,TRUE
+denial_reason_2,int,denial_reason2,,90,TRUE,TRUE
+denial_reason_3,int,denial_reason3,,91,TRUE,TRUE
+denial_reason_4,int,denial_reason4,,92,TRUE,TRUE
+tract_population,int,,,93,TRUE,TRUE
+tract_minority_population_percent,float,,,94,TRUE,TRUE
+ffiec_msa_md_median_family_income,float,,,95,TRUE,TRUE
+tract_to_msa_income_percentage,float,,,96,TRUE,TRUE
+tract_owner_occupied_units,float,,,97,TRUE,TRUE
+tract_one_to_four_family_homes,float,,,98,TRUE,TRUE
+tract_median_age_of_housing_units,float,,,99,TRUE,TRUE

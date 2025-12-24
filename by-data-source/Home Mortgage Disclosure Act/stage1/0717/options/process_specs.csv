@@ -1,0 +1,79 @@
+variable,variable_harmonized,dtype,column_index,in_2007,in_2008,in_2009,in_2010,in_2011,in_2012,in_2013,in_2014,in_2015,in_2016,in_2017,label
+as_of_year,year,int,1,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,year of data (e.g. 1990)
+respondent_id,id,str,2,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"respondent ID, unique within agency"
+agency_name,,str,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,agency name
+agency_abbr,,str,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,agency abbreviation
+agency_code,,int,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"agency code; B,C,D,E,X = State exempts"
+loan_type_name,,str,6,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,loan type name
+loan_type,,int,7,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"loan type; conventional = any other than FHA,VA,FSA,OHS loans"
+property_type_name,,str,8,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,property type name
+property_type,,int,9,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,property type
+loan_purpose_name,,str,10,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,loan purpose name
+loan_purpose,,int,11,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,loan purpose
+owner_occupancy_name,occupancy_name,str,12,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,occupancy name
+owner_occupancy,occupancy,int,13,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,occupancy
+loan_amount_000s,loan_amount,int,14,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,amount of loan (thousand dollars)
+preapproval_name,preapprovals_name,str,15,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,preapprovals status name
+preapproval,preapprovals,int,16,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,preapproval status
+action_taken_name,,str,17,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: type of action taken
+action_taken,,int,18,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,type of action taken
+msamd_name,property_msa_name,str,19,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: MSA of property
+msamd,property_msa,int,20,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,MSA of property
+state_name,,str,21,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,state name
+state_abbr,,str,22,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,state abbreviation
+state_code,fips_state,int,23,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"state code (FIPS, 2 digits)"
+county_name,,str,24,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,county name
+county_code,fips_county,int,25,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"county code (within-state FIPS, 3 digits)"
+census_tract_number,,str,26,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,Census tract number
+applicant_ethnicity_name,ethnicity_name,str,27,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: ethnicity of applicant
+applicant_ethnicity,ethnicity,int,28,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,ethnicity of applicant
+co_applicant_ethnicity_name,ethnicity_coapplicant_name,str,29,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: ethnicity of co-applicatn
+co_applicant_ethnicity,ethnicity_coapplicant,int,30,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,ethnicity of co-applicant
+applicant_race_name_1,race1_name,str,31,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: applicant race 1
+applicant_race_1,race1,int,32,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,applicant race 1
+applicant_race_name_2,race2_name,str,33,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: applicant race 2
+applicant_race_2,race2,int,34,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,applicant race 2
+applicant_race_name_3,race3_name,str,35,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: applicant race 3
+applicant_race_3,race3,int,36,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,applicant race 3
+applicant_race_name_4,race4_name,str,37,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: applicant race 4
+applicant_race_4,race4,int,38,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,applicant race 4
+applicant_race_name_5,race5_name,str,39,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: applicant race 5
+applicant_race_5,race5,int,40,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,applicant race 5
+co_applicant_race_name_1,race1_coapplicant_name,str,41,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: co-applicant race 1
+co_applicant_race_1,race1_coapplicant,int,42,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,co-applicant race 1
+co_applicant_race_name_2,race2_coapplicant_name,str,43,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: co-applicant race 2
+co_applicant_race_2,race2_coapplicant,int,44,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,co-applicant race 2
+co_applicant_race_name_3,race3_coapplicant_name,str,45,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: co-applicant race 3
+co_applicant_race_3,race3_coapplicant,int,46,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,co-applicant race 3
+co_applicant_race_name_4,race4_coapplicant_name,str,47,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: co-applicant race 4
+co_applicant_race_4,race4_coapplicant,int,48,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,co-applicant race 4
+co_applicant_race_name_5,race5_coapplicant_name,str,49,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: co-applicant race 5
+co_applicant_race_5,race5_coapplicant,int,50,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,co-applicant race 5
+applicant_sex_name,sex_name,str,51,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: applicant sex
+applicant_sex,sex,int,52,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,applicant sex
+co_applicant_sex_name,sex_coapplicant_name,str,53,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: co-applicant sex
+co_applicant_sex,sex_coapplicant,int,54,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,co-applicant sex
+applicant_income_000s,income,int,55,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,applicant income (thousand dollars)
+purchaser_type_name,type_purchase_name,str,56,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: type of purchaser
+purchaser_type,type_purchaser,int,57,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,type of purchaser
+denial_reason_name_1,denial_reason1_name,str,58,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: denial reason 1
+denial_reason_1,denial_reason1,int,59,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,denial reason 1
+denial_reason_name_2,denial_reason2_name,str,60,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: denial reason 2
+denial_reason_2,denial_reason2,int,61,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,denial reason 2
+denial_reason_name_3,denial_reason3_name,str,62,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: denial reason 3
+denial_reason_3,denial_reason3,int,63,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,denial reason 3
+rate_spread,,float,64,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,morgage rate spread in percentage points
+hoepa_status_name,,str,65,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: HOEPA status
+hoepa_status,,int,66,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"if it is a Home Ownership and Equity Protection Act (HOEPA) loan, only for loans originated or purchased"
+lien_status_name,,str,67,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: lien status
+lien_status,,int,68,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"lien status, only for applications and originations"
+edit_status_name,,str,69,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,name: edit status
+edit_status,,int,70,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,edit status (blank = no edit failures)
+sequence_number,,int,71,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"sequence number (a one-up nbr within a reporter, to make each record unique)"
+population,,int,72,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,total population in tract
+minority_population,,float,73,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,percentage of minority population to total population for tract
+hud_median_family_income,,int,74,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FFIEC Median family income in dollars for the MSA/MD in which the tract is located (adjusted annually by FFIEC)
+tract_to_msamd_income,,float,75,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,% of tract median family income compared to MSA/MD median family income
+number_of_owner_occupied_units,,int,76,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"Number of dwellings, including individual condominiums, that are lived in by the owner"
+number_of_1_to_4_family_units,,int,77,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,Dwellings that are built to house fewer than 5 families
+application_date_indicator,,int,78,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,indicator for application date
